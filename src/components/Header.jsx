@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Logo from "../assets/logo.svg";
 import Menu from "../assets/icon-menu.svg";
 import closeMenu from "../assets/icon-menu-close.svg";
+import { navItems } from "../constants";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,8 +27,6 @@ const Header = () => {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
-
-  const navItems = ["Home", "New", "Popular", "Trending", "Categories"];
 
   return (
     <header className="flex justify-between items-center mx-auto">
@@ -83,7 +82,7 @@ const Header = () => {
               <a
                 href="#"
                 onClick={() => setIsOpen(false)}
-                className=" text-gray-700 hover:bg-gray-100 hover:text-black transition-colors font-bold text-xl"
+                className=" text-very-dark-blue hover:bg-gray-100 hover:text-black transition-colors font-medium text-[18px] font-Inter"
               >
                 {item}
               </a>
