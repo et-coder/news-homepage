@@ -8,11 +8,11 @@ const Main = () => (
       <img src={heroImgMobile} alt="web-3" />
     </picture>
 
-    <div className="lg:flex lg:gap-5">
-      <h1 className="text-[42px] leading-10 font-extrabold lg:text-[55px] lg:leading-15">
+    <div className="lg:flex lg:gap-10">
+      <h1 className="text-[42px] leading-10 font-extrabold lg:text-[55px] lg:leading-15 flex-[50%]">
         The Bright Future of Web 3.0?
       </h1>
-      <div>
+      <div className="flex-[50%]">
         <p className="text-dark-grayish-blue text-[15px] mt-4 mb-7 leading-6">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
