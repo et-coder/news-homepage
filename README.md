@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](www.frontendmentor.io/solutions/news-homepage-using-react-IuCsOjqRLS)
 - Live Site URL: [live site](https://et-coder.github.io/news-homepage/)
 
 ## My process
@@ -49,5 +49,5 @@ In this challenge I learned how to use my knowlede of react and tailwindcss toge
 
 ## Author
 
-- Github - [Natnael](https://www.github.com/et-coer)
+- Github - [Natnael](https://www.github.com/et-coder)
 - Frontend Mentor - [@et-coder](https://www.frontendmentor.io/profile/et-coder)
