@@ -33,7 +33,7 @@ const Header = () => {
       <img src={Logo} alt="Logo" className="w-[46px] lg:w-[65px]" />
       <button
         onClick={() => setIsOpen(true)}
-        className="p-2 rounded-lg hover:bg-gray-100 md:hidden"
+        className="p-2 rounded-lg hover:bg-gray-100 lg:hidden"
         aria-label="Open menu"
       >
         <img
@@ -43,7 +43,7 @@ const Header = () => {
         />
       </button>
 
-      <ul className="hidden lg:flex lg:block gap-10 lg:text-dark-grayish-blue">
+      <ul className="hidden lg:flex gap-10 lg:text-dark-grayish-blue">
         {navItems.map((item) => (
           <li className="text-dark hover:text-soft-red hover:cursor-pointer">
             <a href="#">{item}</a>
@@ -52,7 +52,7 @@ const Header = () => {
       </ul>
 
       <div
-        className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 md:hidden ${
+        className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 lg:hidden ${
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         onClick={() => setIsOpen(false)}
@@ -60,7 +60,7 @@ const Header = () => {
 
       {/* Full-height menu panel */}
       <nav
-        className={`fixed inset-y-0 right-0 w-72 bg-off-white z-50 transform transition-transform duration-300 ease-out md:hidden ${
+        className={`fixed inset-y-0 right-0 w-72 bg-off-white z-50 transform transition-transform duration-300 ease-out lg:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -76,7 +76,7 @@ const Header = () => {
         </div>
 
         {/* Nav links - fills remaining height */}
-        <ul className="flex flex-col h-[calc(100dvh-65px)] overflow-y-auto p-6 mt-8 space-y-1 flex flex-col gap-4">
+        <ul className="flex flex-col h-[calc(100dvh-65px)] overflow-y-auto p-6 mt-8 space-y-1 gap-4">
           {navItems.map((item) => (
             <li key={item}>
               <a

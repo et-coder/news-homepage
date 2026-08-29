@@ -6,9 +6,9 @@ import Related from "./components/Related";
 
 const App = () => (
   <>
-    <div className="max-w-[1140px] mx-auto px-4 py-7 font-Inter">
+    <div className="max-w-[1140px] mx-auto px-4 py-7 font-Inter ">
       <Header />
-      <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-8 mx-auto">
         <Main />
         <Aside />
         <Related />

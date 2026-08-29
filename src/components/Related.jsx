@@ -1,7 +1,7 @@
 import { related } from "../constants";
 
 const Related = () => (
-  <div className="flex lg:flex-row col-span-2 items-center lg:gap-6">
+  <div className="flex flex-col lg:flex-row lg:col-span-2 lg:items-center lg:gap-6">
     {related.map((content) => (
       <div className="flex gap-6 mb-8 lg:max-w-[355px]" id={content.id}>
         <img src={content.img} className="w-26" />

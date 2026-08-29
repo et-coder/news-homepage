@@ -4,7 +4,7 @@ import heroImgDesktop from "../assets/image-web-3-desktop.jpg";
 const Main = () => (
   <main>
     <picture className="block my-7 lg:my-15">
-      <source media="(min-width: 1024px)" srcSet={heroImgDesktop} />
+      <source media="(min-width: 720px)" srcSet={heroImgDesktop} />
       <img src={heroImgMobile} alt="web-3" />
     </picture>
 
