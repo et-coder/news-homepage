@@ -9,7 +9,7 @@ const Main = () => (
     </picture>
 
     <div className="lg:flex lg:gap-10">
-      <h1 className="text-[42px] leading-10 font-extrabold lg:text-[55px] lg:leading-15 flex-[50%]">
+      <h1 className="text-[42px] text-very-dark-blue leading-10 font-extrabold lg:text-[55px] lg:leading-15 flex-[50%]">
         The Bright Future of Web 3.0?
       </h1>
       <div className="flex-[50%]">
@@ -18,7 +18,7 @@ const Main = () => (
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promise?
         </p>
-        <button className="px-8 py-[14px] bg-soft-red tracking-[3px] font-Inter text-[13.4px] uppercase font-bold">
+        <button className="px-8 py-[14px] bg-soft-red text-very-dark-blue tracking-[3px] font-Inter text-[13.4px] uppercase font-bold">
           Read More
         </button>
       </div>
