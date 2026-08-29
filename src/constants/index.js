@@ -1,3 +1,7 @@
+import retro from "../assets/image-retro-pcs.jpg";
+import gaming from "../assets/image-gaming-growth.jpg";
+import laptops from "../assets/image-top-laptops.jpg";
+
 const navItems = ["Home", "New", "Popular", "Trending", "Categories"];
 
 const asides = [
@@ -17,4 +21,25 @@ const asides = [
   },
 ];
 
-export { navItems, asides };
+const related = [
+  {
+    img: retro,
+    id: "01",
+    heading: "Reviving Retro PCs",
+    description: "What happens when old PCs are given modern upgrades?",
+  },
+  {
+    img: laptops,
+    id: "02",
+    heading: "Top 10 Laptops of 2022",
+    description: "Our best picks for various needs and budgets.",
+  },
+  {
+    img: gaming,
+    id: "03",
+    heading: "The Growth of Gaming",
+    description: "How the pandamic has sparked fresh opportunities",
+  },
+];
+
+export { navItems, asides, related };
