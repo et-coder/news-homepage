@@ -3,7 +3,7 @@ import { related } from "../constants";
 const Related = () => (
   <div>
     {related.map((content) => (
-      <div className="flex gap-5 mb-10" id={content.id}>
+      <div className="flex gap-5 mb-8" id={content.id}>
         <img src={content.img} className="w-26" />
         <div>
           <h2 className="font-bold text-soft-red text-3xl">{content.id}</h2>
